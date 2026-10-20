@@ -4,9 +4,11 @@ A browser-based platform that turns 2D photos of demolished or ruined historic b
 
 BU Spark! Practicum · DS 549 · Spring 2026 · Grade: A
 
-> Source code is not published. This repository is a visual showcase of the front end.
+<p align="center">
+  <img src="media/viewer_orbit.gif" width="860" alt="Orbiting a reconstructed heritage building point cloud in the browser">
+</p>
 
-> 📽️ Screenshots and GIFs of each module are being added.
+> Source code is not published. This repository is a visual showcase of the front end.
 
 ---
 
@@ -15,17 +17,52 @@ BU Spark! Practicum · DS 549 · Spring 2026 · Grade: A
 ### Home / Project showcase
 A landing page with an animated 3D background. It introduces the project's mission of preserving architectural heritage and walks visitors through the reconstruction workflow, from photo upload to an interactive 3D model.
 
-### Team, mentors & tech stack
-A section of the home page that credits the team, the project mentors and the technologies behind the platform.
+<p align="center">
+  <img src="media/home_scroll.gif" width="860" alt="Scrolling through the landing page">
+</p>
+
+<p align="center">
+  <img src="media/home_hero.png" width="49%" alt="Landing page hero section">
+  <img src="media/home_how_it_works.png" width="49%" alt="How-it-works section of the landing page">
+</p>
+
+### Tech stack section
+A section of the home page that lists the technologies behind the platform and the project's next steps.
+
+<p align="center">
+  <img src="media/home_tech_stack.png" width="360" alt="Built-with and what's-next section of the home page">
+</p>
 
 ### Multi-image reconstruction workspace
-The main interactive workspace. Users upload several photos of a site into image slots and guide an AI segmentation model with positive/negative clicks and bounding boxes to isolate the building from its surroundings. They then start a reconstruction job. Progress streams into the page in real time while the back end does its work.
+The main interactive workspace. Users load site photos into five source slots and guide an AI segmentation model with positive/negative clicks and bounding boxes to isolate the building from its surroundings. They then start a reconstruction job. Progress streams into the page in real time while the back end does its work.
+
+<p align="center">
+  <img src="media/lab_workspace.png" width="49%" alt="Reconstruction lab with source image slots and 3D workspace">
+  <img src="media/lab_semantic_masking.png" width="49%" alt="Semantic masking panel with point and box prompts">
+</p>
+
+<p align="center">
+  <img src="media/lab_load_sample.gif" width="860" alt="Loading a reconstructed model into the 3D workspace">
+</p>
 
 ### Interactive 3D preview
 The reconstructed model loads directly in the browser. Users can orbit and zoom around it, and select, move, rotate or scale models in the scene.
 
+<p align="center">
+  <img src="media/viewer_transform.gif" width="860" alt="Moving a model with the transform gizmo">
+</p>
+
+<p align="center">
+  <img src="media/viewer_point_cloud.png" width="49%" alt="Point-cloud model inside its bounding box">
+  <img src="media/viewer_transform.png" width="49%" alt="Transform gizmo on the selected model">
+</p>
+
 ### Documentation pages
 In-app pages that explain how the reconstruction pipeline works and record our early exploration with neural radiance fields (Nerfstudio) and structure-from-motion (COLMAP).
+
+<p align="center">
+  <img src="media/docs_nerf_exploration.png" width="760" alt="NeRF Studio exploration documentation page">
+</p>
 
 ---
 
